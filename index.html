@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova - Solusi Teknologi Inovatif</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#0070f3', 
+                        'secondary': '#1f2937', 
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <a href="#" class="text-2xl font-bold text-primary">Tech<span class="text-secondary">Nova</span></a>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#hero" class="text-gray-600 hover:text-primary transition duration-300">Beranda</a>
+                <a href="#fitur" class="text-gray-600 hover:text-primary transition duration-300">Fitur</a>
+                <a href="#tentang" class="text-gray-600 hover:text-primary transition duration-300">Tentang Kami</a>
+                <a href="#kontak" class="text-gray-600 hover:text-primary transition duration-300">Kontak</a>
+            </nav>
+
+            <button class="md:hidden text-gray-600 hover:text-primary focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+        </div>
+
+        <nav id="mobile-menu" class="hidden md:hidden bg-gray-50 border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
+                <a href="#hero" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-200">Beranda</a>
+                <a href="#fitur" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-200">Fitur</a>
+                <a href="#tentang" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-200">Tentang Kami</a>
+                <a href="#kontak" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-200">Kontak</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="bg-gray-50 py-20 sm:py-32">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl sm:text-6xl font-extrabold text-secondary mb-4">
+                    Masa Depan Teknologi, Dimulai Hari Ini
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                    TechNova menyediakan solusi digital dan infrastruktur berbasis AI yang mendorong efisiensi dan pertumbuhan bisnis Anda di era digital.
+                </p>
+                <a href="#kontak" class="inline-block bg-primary text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 transform hover:scale-105">
+                    Mulai Proyek Anda Sekarang <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="fitur" class="py-16 sm:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center text-secondary mb-12">Mengapa Memilih TechNova?</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <i class="fas fa-robot text-primary text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-secondary mb-3">Integrasi AI Cepat</h3>
+                        <p class="text-gray-600">Implementasi kecerdasan buatan dalam alur kerja Anda tanpa proses yang rumit dan panjang.</p>
+                    </div>
+                    <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <i class="fas fa-cloud text-primary text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-secondary mb-3">Layanan Cloud Terukur</h3>
+                        <p class="text-gray-600">Infrastruktur *cloud* yang fleksibel, aman, dan dapat disesuaikan dengan kebutuhan skala bisnis Anda.</p>
+                    </div>
+                    <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <i class="fas fa-shield-alt text-primary text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-secondary mb-3">Keamanan Data Tinggi</h3>
+                        <p class="text-gray-600">Sistem keamanan multi-lapisan yang melindungi aset digital kritis perusahaan Anda 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="py-16 sm:py-24 bg-primary text-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="md:flex md:items-center md:space-x-12">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <h2 class="text-3xl font-bold mb-4">Tentang TechNova</h2>
+                        <p class="mb-4 text-gray-200">
+                            Didirikan pada tahun 2018, TechNova lahir dari visi untuk menjembatani kesenjangan antara potensi teknologi mutakhir dengan kebutuhan praktis bisnis sehari-hari. Kami adalah tim insinyur, *data scientist*, dan desainer yang bersemangat dalam membangun solusi yang tidak hanya berfungsi, tetapi juga transformatif.
+                        </p>
+                        <p class="text-gray-200">
+                            Kami percaya pada inovasi berkelanjutan dan kemitraan yang transparan. Fokus kami adalah memastikan setiap klien kami mencapai puncak potensi digital mereka.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="bg-white bg-opacity-10 p-8 rounded-xl h-64 flex items-center justify-center">
+                            <i class="fas fa-lightbulb text-6xl text-white opacity-70"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
+                <h2 class="text-3xl font-bold text-center text-secondary mb-12">Hubungi Kami</h2>
+                
+                <form action="#" method="POST" class="bg-white p-8 rounded-xl shadow-2xl">
+                    <div class="mb-5">
+                        <label for="nama" class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
+                        <input type="text" id="nama" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-200" required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-200" required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="topik" class="block text-sm font-medium text-gray-700 mb-1">Topik yang Ingin Dibahas</label>
+                        <select id="topik" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-200" required>
+                            <option value="">Pilih Topik</option>
+                            <option value="AI">Solusi AI</option>
+                            <option value="Cloud">Infrastruktur Cloud</option>
+                            <option value="Keamanan">Layanan Keamanan</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                    <div class="mb-6">
+                        <label for="pesan" class="block text-sm font-medium text-gray-700 mb-1">Pesan Anda</label>
+                        <textarea id="pesan" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-200" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-secondary text-white font-semibold py-3 rounded-lg shadow-md hover:bg-gray-700 transition duration-300 transform hover:scale-[1.01]">
+                        Kirim Permintaan <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary text-white py-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-gray-400 hover:text-primary transition duration-300" title="Facebook">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-primary transition duration-300" title="Twitter">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-primary transition duration-300" title="LinkedIn">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-primary transition duration-300" title="Instagram">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+            </div>
+            
+            <p class="text-gray-400 text-sm">&copy; 2025 TechNova. Semua Hak Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
