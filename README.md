@@ -3,21 +3,22 @@
 
 Proyek ini adalah implementasi Tugas Akhir Percobaan 3 Praktikum Pemrograman Web, yang bertujuan untuk membuat sebuah *landing page* perusahaan teknologi yang sepenuhnya responsif menggunakan *utility-first* framework, **Tailwind CSS**.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Framework:** Tailwind CSS (via CDN)
-- **Desain Responsif:** Layout dioptimalkan untuk tampilan desktop, tablet, dan mobile (menggunakan utilitas Tailwind seperti `md:`, `sm:`).
+- **Desain Responsif:** Layout dioptimalkan untuk tampilan desktop, tablet, dan mobile..
 - **Komponen Lengkap:**
     - Header dan Navigasi dengan menu *hamburger* responsif.
-    - Hero Section dengan *Headline* dan CTA.
+    - Hero Section dengan *Headline*.
     - Features Section (3 Fitur) dengan efek *hover*.
     - About Section.
     - Contact Form yang ter-*styled*.
     - Footer dengan *Copyright* dan *Social Media Links*.
-<img width="1887" height="636" alt="image" src="https://github.com/user-attachments/assets/c8038ba2-9c80-4316-920a-fd9d59107078" />
-<img width="1894" height="384" alt="image" src="https://github.com/user-attachments/assets/6afcbf49-33fc-4f03-a6e9-14c079b1d426" />
-<img width="1892" height="382" alt="image" src="https://github.com/user-attachments/assets/5386b554-b366-4d10-aa93-2fc036d4beeb" />
-<img width="1889" height="886" alt="image" src="https://github.com/user-attachments/assets/f189c924-23a1-4c9c-b2df-1e04bd89a0eb" />
+<img width="1891" height="550" alt="image" src="https://github.com/user-attachments/assets/bb0afdc3-e74f-470d-963a-1df0be96782e" />
+<img width="1881" height="470" alt="image" src="https://github.com/user-attachments/assets/b99667ee-aeb7-4e98-8ba6-1ad73f5aaca0" />
+<img width="1901" height="449" alt="image" src="https://github.com/user-attachments/assets/cdf51065-1a27-4108-b5cc-c5ec56d74d90" />
+<img width="1897" height="887" alt="image" src="https://github.com/user-attachments/assets/622ad02f-a7ab-4d26-942e-37fed498bd1d" />
+
 
 
 
